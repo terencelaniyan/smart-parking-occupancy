@@ -1,11 +1,14 @@
 # Smart Parking Occupancy Detection System
+
 Purdue University Indianapolis — ECE 49200 Senior Design, Spring 2026
 
 ## Overview
-5-space embedded parking detection system using IR sensors, RGB LEDs, 
+
+5-space embedded parking detection system using IR sensors, RGB LEDs,
 ILI9341 TFT LCD, and solar-assisted power on the Purdue Proton (ARM Cortex-M33).
 
 ## Hardware
+
 - Purdue Proton board (RP2350B / ARM Cortex-M33)
 - IR obstacle sensor modules (×5)
 - 5mm RGB LEDs with current-limiting resistors
@@ -13,6 +16,7 @@ ILI9341 TFT LCD, and solar-assisted power on the Purdue Proton (ARM Cortex-M33).
 - Waveshare Solar Power Manager + 18650 Li-ion cell
 
 ## Features
+
 - Real-time per-space occupancy detection
 - Color-coded LED status (green/red/blue/yellow)
 - Handicap and maintenance mode indication
@@ -21,9 +25,11 @@ ILI9341 TFT LCD, and solar-assisted power on the Purdue Proton (ARM Cortex-M33).
 - Solar-assisted rechargeable power path
 
 ## Tech Stack
+
 C, Pico SDK, KiCad 9.0, SPI, GPIO, ADC
 
 ## Repo Structure
+
 ```
 smart-parking-occupancy/
 ├── firmware/
@@ -31,9 +37,10 @@ smart-parking-occupancy/
 ├── hardware/
 │   └── Smart_parking_project_.kicad_sch
 ├── docs/
-│   └── Final_Report_SD-6.pdf
+│   └── Final_Report_SD.pdf
 └── README.md
 ```
 
 ## Team
+
 Fahd Laniyan · Essa Alansari · Nathan Bradshaw · Maitham Sulais
