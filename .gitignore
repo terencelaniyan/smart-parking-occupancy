@@ -1,0 +1,29 @@
+# Compiled firmware (Pico SDK / ARM)
+*.elf
+*.uf2
+*.map
+*.bin
+*.hex
+*.o
+*.a
+build/
+
+# KiCad — backups, caches, exports
+*-backups/
+*.bak
+*.bck
+*-bak
+*-bak*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+*-cache*
+~*.lck
+*.kicad_prl
+.history
+*.net
+*.dsn
+*.ses
